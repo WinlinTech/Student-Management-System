@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SignUp from './SignUp';
+import SignUp from './Pages/Login_SignUp/SignUp';
 import {BrowserRouter, Routes,Route} from 'react-router-dom';
-import Login from './Login';
-import Home from './Pages/Home';
+import Login from './Pages/Login_SignUp/Login';
+import Home from './Pages/Home/Home';
 
 
 function App() {

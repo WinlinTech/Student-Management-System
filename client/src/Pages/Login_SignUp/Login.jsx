@@ -56,9 +56,9 @@ export default function Login() {
            
           </div>
           <div className="footer">
-            <button type="submit" className="btn">
+            <Link to="/" type="submit" className="btn">
               Login
-            </button>
+            </Link>
             <p>Don't have an account</p>
             <Link to="/register" type="submit" className="btn">
               Register

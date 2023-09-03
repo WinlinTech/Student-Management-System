@@ -6,6 +6,7 @@ import Login from './Pages/Login_SignUp/Login';
 import Home from './Pages/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Sidebar from './Components/Sidebar/Sidebar';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Footer/>
+      <Sidebar/>
 
       <div className="pages">
         <Routes>
